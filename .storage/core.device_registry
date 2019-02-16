@@ -1,0 +1,46 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "a92cf40f99be41acb0cc207177c0b621"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "1b4e75476cc3419baf99f0e0ea3f664d",
+                "identifiers": [
+                    [
+                        "cast",
+                        "af6e32a76e8306a64b2b2548c69bbe9e"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Eureka Dongle",
+                "name": "Chromecast",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "a92cf40f99be41acb0cc207177c0b621"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "507749e042a7483cbc9478f81a85f779",
+                "identifiers": [
+                    [
+                        "cast",
+                        "0d4ded6097e9fab007d1b561f9b7f105"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Home mini Soggiorno",
+                "sw_version": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

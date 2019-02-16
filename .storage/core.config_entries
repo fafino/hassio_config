@@ -1,0 +1,43 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "cast",
+                "entry_id": "a92cf40f99be41acb0cc207177c0b621",
+                "source": "discovery",
+                "title": "Google Cast",
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "webhook_id": "fbd2f101df72279f12a78cb79aa9f49ed97163c2161b60599357a277fbc375f6"
+                },
+                "domain": "ifttt",
+                "entry_id": "9b85068bf1e64d3ca44dff0d117c9dfe",
+                "source": "user",
+                "title": "IFTTT Webhook",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "localhost",
+                    "discovery": true,
+                    "password": "oniwefivofdvidf234d",
+                    "port": 1883,
+                    "username": "usermqtt"
+                },
+                "domain": "mqtt",
+                "entry_id": "5ccef79760e340b887f59ada49008a87",
+                "source": "user",
+                "title": "localhost",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

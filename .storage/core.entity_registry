@@ -1,0 +1,26 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": "a92cf40f99be41acb0cc207177c0b621",
+                "device_id": "1b4e75476cc3419baf99f0e0ea3f664d",
+                "disabled_by": null,
+                "entity_id": "media_player.chromecast",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "af6e32a7-6e83-06a6-4b2b-2548c69bbe9e"
+            },
+            {
+                "config_entry_id": "a92cf40f99be41acb0cc207177c0b621",
+                "device_id": "507749e042a7483cbc9478f81a85f779",
+                "disabled_by": null,
+                "entity_id": "media_player.home_mini_soggiorno",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "0d4ded60-97e9-fab0-07d1-b561f9b7f105"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

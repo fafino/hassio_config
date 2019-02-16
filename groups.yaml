@@ -1,0 +1,38 @@
+#dfault_view:
+#  view: yes
+#  icon: mdi:home
+#  entities:
+#    - group.temperatura
+
+soggiorno:
+  name: Soggiorno
+#  view: yes
+  control: hidden
+#  icon: mdi:home
+  entities:
+#    - media_player.home_mini_soggiorno
+    - media_player.chromecast
+    
+stereo:
+  name: Home Theatre
+#  view: yes
+  control: hidden
+  entities:
+    - media_player.rx_a1070_fdf552
+    - media_player.rx_a1070_fdf552_zone_2
+
+internet_speed:
+  name: Internet Speed
+  control: hidden
+  entities:
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
+    - sensor.speedtest_ping
+
+temperatura:
+  name: Temperatura
+  control: hidden
+  entities:
+    - sensor.temperatura_casa_temperature
+    - sensor.temperatura_casa_humidity
+    - sensor.temperatura_casa_battery

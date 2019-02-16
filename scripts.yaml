@@ -1,0 +1,41 @@
+'1548455040554':
+  alias: serranda ferma
+  sequence:
+  - data:
+      event: serranda_ferma
+    service: ifttt.trigger
+'1548455300958':
+  alias: serranda giu
+  sequence:
+  - data:
+      event: serranda_giu
+    service: ifttt.trigger
+'1548455420431':
+  alias: serranda su
+  sequence:
+  - data:
+      event: serranda_su
+    service: ifttt.trigger
+'1548710840595':
+  alias: accendi lampadina
+  sequence:
+  - alias: ''
+    data:
+      event: accendi_lampadina
+    service: ifttt.trigger
+'1548710888239':
+  alias: spegni lampadina
+  sequence:
+  - data:
+      event: spegni_lampadina
+    service: ifttt.trigger
+
+prova1:
+    alias: "test1"
+    sequence:
+      - service: switch.turn_on
+        entity_id: switch.SONOFF200_test1
+      - delay:
+          seconds: 5
+      - service: switch.turn_off
+        entity_id: switch.SONOFF200_test1

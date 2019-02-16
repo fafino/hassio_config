@@ -1,0 +1,20 @@
+{
+    "data": {
+        "users": [
+            {
+                "password": "JDJiJDEyJHc0Nk8vN21DeDFKa2E0ZXcwbFdqdy4vNXpoL1YzTzlTS3d6am1UbFdjVDlycFpGZ21Da0Jt",
+                "username": "fafino"
+            },
+            {
+                "password": "JDJiJDEyJDZuR1pSd1dEZ3V5Ukk3cnZ6U3B4OU80Tk14ZHZOaWg2TE1IUldmTk9HZ2o5LmN5OGZvMTFT",
+                "username": "veromira"
+            },
+            {
+                "password": "JDJiJDEyJC9IaVh1UlNHenB1ZS5ZS1ZzYjJmMXVTWkcyTWNMdDlVOVB3ZDZEeU5JR2I0d0pyZFpqVEhP",
+                "username": "usermqtt"
+            }
+        ]
+    },
+    "key": "auth_provider.homeassistant",
+    "version": 1
+}

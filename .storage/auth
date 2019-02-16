@@ -1,0 +1,288 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "fafino"
+                },
+                "id": "40169b2d339043658279249877975275",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "veromira"
+                },
+                "id": "b6ce0e5ce7d9433cb62776162d2483a1",
+                "user_id": "6f84e53aa81e4d648bf378132e23711a"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "legacy_api_password",
+                "data": {},
+                "id": "02b38d670f534bb6a4600406765a2863",
+                "user_id": "8a8fd29be4994edab3316ab63b72044f"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "usermqtt"
+                },
+                "id": "fe83578856734b33af931c697ef0cb1d",
+                "user_id": "1ef2af40670d4ce4b4ff9059999740ab"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2019-01-23T22:13:32.390108+00:00",
+                "id": "3a08feecd6f245fd85e33457ba990636",
+                "jwt_key": "981fcae922e6b0bb845771eda0942f91c40a8e9c031e9fc172bc9cc317d47f16ac5df7b00affe1d07845f5b0ace42e0f7305f3c553514ea327910d7fdc61a5fa",
+                "last_used_at": "2019-02-16T15:38:18.431260+00:00",
+                "last_used_ip": "172.30.32.2",
+                "token": "3dccc1d469fc385a48edddca9ff42f1bb3f1da09a56a0d80462820be0caa33b7da82d58c94b6d991126a7c4de55e839e10a598745d1014f01d21d11af72ee5ec",
+                "token_type": "system",
+                "user_id": "82af244270aa4da29e88da29f5ef3e6c"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.1.100:8123/",
+                "client_name": null,
+                "created_at": "2019-01-23T22:16:58.599361+00:00",
+                "id": "3835dd4744204fa88599b8bdb483b827",
+                "jwt_key": "d8f7704baeac0fe224ee1e00623e3ffd43fd8f7a0d5e54668c37dda3513b2bb58fa58d66833688123392f9151e8a6fb45b7461dee586a8861098f10c3cc07bab",
+                "last_used_at": "2019-01-24T22:58:26.895438+00:00",
+                "last_used_ip": "192.168.1.56",
+                "token": "abe1474af4d96f81486ac340b6aa8cffe1dfd975d8571b6f49c2daeac12164530f5e00a92520db0a7c58af8be83cd49e306df4367a1bbdd2cb73d23daf229832",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://casafafino.duckdns.org/",
+                "client_name": null,
+                "created_at": "2019-01-24T23:16:05.207608+00:00",
+                "id": "f98811ed42e0460f904a8341364c5c7e",
+                "jwt_key": "6a1533430a7608cbb716635dd38b61d810dc5cb1198922808d9c03f02b2853556a63e8fbd1dd1f99c84d9daad64742c77fb89817938d6fd0727df074a2664c7a",
+                "last_used_at": "2019-01-26T08:38:33.542317+00:00",
+                "last_used_ip": "5.88.126.184",
+                "token": "03f4d56e2be1d95755a1817cf3f52d320eddadd667ccab220831a9da5f2a8c7cbdf13c95ebbca9cf5b687f299159383be944b2d336d41a60ccf9c36ce6e8b144",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://192.168.1.100:8123/",
+                "client_name": null,
+                "created_at": "2019-01-24T23:19:50.929946+00:00",
+                "id": "636b279e788d4a868ade9edac6d77713",
+                "jwt_key": "02b3270ae6225d82b5e6f36270b42050d19a8f15edf0b1c8e09321219af6d86032edfb54eb52a37659184a8ca9eb48cc85102e2e15251a91037464694640ae21",
+                "last_used_at": "2019-01-28T21:19:57.105142+00:00",
+                "last_used_ip": "192.168.1.62",
+                "token": "b983ecf4577afcd06a32be73b795238be952d2cdeab9606ae9e8621db2c0da9e6f94e1817871b436b472ab0ae53c5b6f749a9c55c124e587dc1d5acd0e28a850",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://casafafino.duckdns.org/",
+                "client_name": null,
+                "created_at": "2019-01-25T12:42:05.722986+00:00",
+                "id": "d92154f36a16453d8b6048830ef14d45",
+                "jwt_key": "0d8c8a1cac82eaf43c8c898d8e4f4564d30b164266bd85c29985ee807e884fea8ab8f7042e6f2ce2c9c40481d5c34a3fda08680c6aa17c856b5f3a7786d68d21",
+                "last_used_at": "2019-01-28T21:19:21.984405+00:00",
+                "last_used_ip": "93.144.254.149",
+                "token": "cd776f3ea5261aed6114376e7177f68f9d181acc5432c13962efaaad7a6e1c618120efc8cc1a92fbeacda6fc74509b43ce9d51d8824e47aef99da73fd334a53d",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://casafafino.duckdns.org/",
+                "client_name": null,
+                "created_at": "2019-01-26T22:10:27.467404+00:00",
+                "id": "30e6c233cc65466ca56328c976623862",
+                "jwt_key": "682ad9d2250e3c44ad200b13e680c68cfb168e2c46f4806ca7000485950e5789ff5c0c1352d2979c16b35d4bed194f29713a9d5c13e076d05645642b437385b1",
+                "last_used_at": "2019-01-31T08:04:03.687353+00:00",
+                "last_used_ip": "93.147.247.161",
+                "token": "370a2cc0e1d1475233f95017b4198ac0fb8015641bdbb8824fe74098acabbc67ae4b00a90cc9b29bd528e381247c4e10a30a916ef3431b75d66c383f3076dee5",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 315360000.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": "haaska",
+                "created_at": "2019-01-30T21:08:32.514730+00:00",
+                "id": "365d5f6118c646d0a05f4d6cfd2ceb20",
+                "jwt_key": "c79d8a826889f2e554fbf67b804dcf5a4792174c1d332a3f90ceab70c15357a240022f1e2568a7512bf36ff98467f744e3b7cfbcfbac0a0161248d7eff884bc3",
+                "last_used_at": "2019-01-30T21:08:32.515543+00:00",
+                "last_used_ip": null,
+                "token": "3ef8a9fa67b535af9a35ea954f0bb4b6f22d03ebb35082293f7dbc612e2c5171242fc3cda4523ecea34aaad77a74436390ddff3ad3b5c90e8703d33daad40e2d",
+                "token_type": "long_lived_access_token",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://192.168.1.100:8123/",
+                "client_name": null,
+                "created_at": "2019-01-30T21:35:46.839898+00:00",
+                "id": "4e7a5822078b46a8bb70bd3e6f283256",
+                "jwt_key": "569546987573ab65bf9a5cd93d56ade516f023603de4f7d0b51101b8a962dbd69ab2eb2d6a4f8f1b7a40d6ba75f8822c57d38955445f5650207f414d663ffb6b",
+                "last_used_at": "2019-02-16T15:46:52.840472+00:00",
+                "last_used_ip": "192.168.1.55",
+                "token": "c35e2f9c06fcd138f9e41c152181528c49922ec5b304bdddd57b5179aff92fbf2974927a6ee773b153fd833a0c5f8891340d6b8cd7727ead5d07ce8307bc6ac0",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://casafafino.duckdns.org/",
+                "client_name": null,
+                "created_at": "2019-01-31T07:53:35.504929+00:00",
+                "id": "64912f4d7d684c35add08097236c3659",
+                "jwt_key": "bccc50cd5faa1296b1d09c63199b98952e8dd5d53fe7c028bae8cbfa796b791ca262e657c3a23304d32ea41dc95ab9d10f19c9bb1e3d12e345891d1395201a5c",
+                "last_used_at": "2019-02-09T21:28:19.864581+00:00",
+                "last_used_ip": "2.42.47.236",
+                "token": "2eaa99864204e80cd7e58c0c151ba18a4fc0fce90a43eb9f6372fa40d3cb0e1457f7e2fe8c18770ec008e4f2d73c307c18fe5143d23d326ad569dad7c1e6ef47",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://192.168.1.100:8123/",
+                "client_name": null,
+                "created_at": "2019-01-31T08:04:40.359339+00:00",
+                "id": "1b2b1d972c2449ef8923b765f2b5ab64",
+                "jwt_key": "a16f0358f7f3a007371245527bdcce8728aca463d4704d478b442befef417ae1edd437d5460ea77c9b0b274773f01a78b915c45a777c3f3f47ad2e64acf6b0e1",
+                "last_used_at": "2019-01-31T08:04:40.359608+00:00",
+                "last_used_ip": "192.168.1.62",
+                "token": "f9e0c0d7842dedec0a6aff3711749d30e4c20bbff7b09e11ead24adaaae356f7085a647ba55bb69873ff6eaa7a9ddaa6d9541c5b4556c905c3f5deafd3936920",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://casafafino.duckdns.org/",
+                "client_name": null,
+                "created_at": "2019-02-05T21:50:47.884876+00:00",
+                "id": "512118cd897e42b292b1d5dd188dabbb",
+                "jwt_key": "e03cbb020183c1b796924850a6436cfce924436ebc4f80fda5860831f98701c12f77f624f056cb1a4a36b8db47bb055a4f6e061b55308ac4e1add2a593df8585",
+                "last_used_at": "2019-02-05T21:50:47.885183+00:00",
+                "last_used_ip": "188.153.48.243",
+                "token": "23d99c8422cc9970d1ec427a999f98f8671ed6cccd5493a164ae3cd4ce6ca7de1090e6fbb741ec8ecba0388b272da30ac0c970d44e46c8f8245d065da0715112",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://192.168.1.100:8123/",
+                "client_name": null,
+                "created_at": "2019-02-14T20:55:37.781045+00:00",
+                "id": "ae24637313674997a05d5a4e72010f60",
+                "jwt_key": "7239aa7783a9279afb591dd87d215240b1e1b84ad1d110a0301c5e2c81c19299972104d781350fa0fa08b813f1ef62bb52b1766db3163f037278f087cbfb2df4",
+                "last_used_at": "2019-02-15T07:41:55.873865+00:00",
+                "last_used_ip": "192.168.1.57",
+                "token": "6a6a5b414b22770dc0164b4a73b30a2028ad31bab33f1f38faded319452ec7339f3e05bf9673468dae8af8ca5bc292b87a96d38985f67222119e473ea0cd67de",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://192.168.1.100:8123/",
+                "client_name": null,
+                "created_at": "2019-02-15T22:08:48.703874+00:00",
+                "id": "c300ecbca21c46d88e6982eefc952d1f",
+                "jwt_key": "9a841ad8a800ed5a9308639c163a81ad7ab1f5fde8124523bfa02125d253fc437cd078fd7cadcfacb92611924c3f001f6e708273b0a8f7f543d2bf528b3e905f",
+                "last_used_at": "2019-02-15T22:08:48.704201+00:00",
+                "last_used_ip": "192.168.1.55",
+                "token": "f8d9f680f2120f5a08bf767f5512bae6b6e78bdb7a58a2c55dadb2615f1486bfbb19efe7bfda48e59adc2dcedd7a7d9fed570b3124bd7fbf37631fda32c97584",
+                "token_type": "normal",
+                "user_id": "5f0953457bf3460a89993213a302bf69"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "82af244270aa4da29e88da29f5ef3e6c",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "5f0953457bf3460a89993213a302bf69",
+                "is_active": true,
+                "is_owner": true,
+                "name": "Fabio",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "6f84e53aa81e4d648bf378132e23711a",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Veronica",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "8a8fd29be4994edab3316ab63b72044f",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Legacy API password user",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "1ef2af40670d4ce4b4ff9059999740ab",
+                "is_active": true,
+                "is_owner": false,
+                "name": "userMQTT",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

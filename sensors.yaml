@@ -1,0 +1,44 @@
+  # Weather prediction
+  - platform: yr
+    name: Meteo
+    forecast: 24
+    monitored_conditions:
+      - temperature
+#      - symbol
+#      - precipitation
+#      - windSpeed
+#      - pressure
+#      - windDirection
+#      - humidity
+#      - fog
+#      - cloudiness
+#      - lowClouds
+#      - mediumClouds
+#      - highClouds
+#      - dewpointTemperature
+
+  - platform: speedtest
+    monitored_conditions:
+      - ping
+      - download
+      - upload
+      
+  - platform: fastdotcom
+  
+  - platform: time_date
+    display_options:
+     # - 'time'
+     # - 'date'
+     # - 'date_time'
+      - 'time_date'
+     # - 'time_utc'
+     # - 'beat'
+  - platform: mitemp_bt
+    mac: '4C:65:A8:DD:DB:7B'
+    name: Temperatura Casa
+    force_update: false 
+    median: 3
+    monitored_conditions:
+      - temperature
+      - humidity
+      - battery

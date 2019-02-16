@@ -1,0 +1,136 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Casa FAVE
+  # Location required to calculate the time the sun rises and sets
+  latitude: 37.538349
+  longitude: 15.064362
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 120
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Rome
+  # Customization file
+  customize: !include customize.yaml
+
+# Show links to resources in log and frontend
+introduction:
+
+# Enables the frontend
+frontend:
+  themes:
+    happy:
+      primary-color: pink
+    sad:
+      primary-color: blue
+
+# Enables configuration UI
+config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+http:
+  api_password: !secret http_password
+  base_url: https://casafafino.duckdns.org:8123
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+  
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Track the sun
+sun:
+
+# Sensors
+sensor: !include sensors.yaml
+
+system_health:
+  
+
+# Text to speech
+tts:
+  - platform: google
+
+# Cloud
+cloud:
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+
+
+panel_iframe:
+  configurator:
+    title: Configurator
+    icon: mdi:wrench
+    url: http://hassio.local:3218
+    
+ifttt:
+  key: 2Yu9TjyAvEYHgSqMASGXJ
+  
+cast:
+  media_player:
+    - host: 192.168.1.54
+
+light:
+
+switch:
+  - platform: mqtt
+    name: SONOFF200_test1
+    icon: mdi:light  #https://materialdesignicons.com/
+    state_topic: "stat/sonoff200/POWER"
+    command_topic: "cmnd/sonoff200/POWER"
+    availability_topic: "tele/sonoff200/LWT"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    retain: false
+    
+camera:
+  - platform: mjpeg
+    name: Camera Ingresso
+    mjpeg_url: http://admin:paperino@192.168.1.30/mjpeg.cgi
+    
+    
+    
+#per alexa
+#https://indomus.it/guide/integrare-gratuitamente-amazon-echo-alexa-con-home-assistant-via-haaska-e-aws/
+api:
+alexa:
+  smart_home:
+    filter:
+      include_entities:
+        - switch.SONOFF200_test1
+        - script.prova1
+    entity_config:
+      switch.SONOFF200_test1:
+        name: interruttore
+        description: interruttore uno
+      script.prova1:
+        name: pippo
+        description: paperino
+        
+

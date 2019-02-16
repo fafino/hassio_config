@@ -1,0 +1,84 @@
+2019-02-16 16:33:17 WARNING (MainThread) [homeassistant.components.http] legacy_api_password support has been enabled. If you don't require it, remove the 'api_password' from your http config.
+2019-02-16 16:33:41 ERROR (SyncWorker_3) [homeassistant.components.xiaomi_aqara] No gateway discovered
+2019-02-16 16:33:41 ERROR (MainThread) [homeassistant.setup] Setup failed for xiaomi_aqara: Component failed to initialize.
+2019-02-16 16:34:03 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_humidity is taking over 10 seconds
+2019-02-16 16:34:24 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:34:55 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:35:26 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:35:55 WARNING (SyncWorker_10) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:35:55 WARNING (SyncWorker_19) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:35:57 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:36:05 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:36:28 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:36:59 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:37:30 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:37:41 WARNING (SyncWorker_2) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:38:01 WARNING (SyncWorker_9) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:38:01 WARNING (SyncWorker_4) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:38:11 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:38:32 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:39:03 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:39:34 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:39:52 WARNING (SyncWorker_5) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:40:15 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:40:36 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:41:07 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:41:38 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:41:43 WARNING (SyncWorker_15) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:41:53 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_temperature is taking over 10 seconds
+2019-02-16 16:42:09 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:42:40 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:43:11 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:43:42 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:43:42 WARNING (SyncWorker_13) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:43:42 WARNING (SyncWorker_5) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:44:13 WARNING (SyncWorker_19) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:44:23 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:44:44 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:45:15 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:45:23 WARNING (SyncWorker_11) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:45:23 WARNING (SyncWorker_0) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:45:46 WARNING (SyncWorker_14) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:45:56 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:46:17 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:46:22 WARNING (SyncWorker_16) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:46:23 WARNING (SyncWorker_6) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:46:48 WARNING (SyncWorker_7) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:46:48 WARNING (SyncWorker_8) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:46:58 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:47:19 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:47:47 WARNING (SyncWorker_9) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:47:50 WARNING (SyncWorker_7) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:47:50 WARNING (SyncWorker_5) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:48:00 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:48:21 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:48:21 WARNING (SyncWorker_0) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:49:02 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:49:23 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:49:54 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:50:11 WARNING (SyncWorker_5) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:50:21 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_humidity is taking over 10 seconds
+2019-02-16 16:50:25 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:50:35 WARNING (SyncWorker_19) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:50:35 WARNING (SyncWorker_18) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:51:06 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:51:27 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:51:49 WARNING (SyncWorker_12) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:51:49 WARNING (SyncWorker_16) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:51:50 WARNING (SyncWorker_17) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:51:58 WARNING (SyncWorker_1) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:52:08 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:52:29 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:53:00 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:53:21 WARNING (SyncWorker_14) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:53:21 WARNING (SyncWorker_7) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:53:41 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:54:02 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:54:33 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30
+2019-02-16 16:54:53 WARNING (SyncWorker_3) [homeassistant.components.sensor.mitemp_bt] Polling error 
+2019-02-16 16:54:53 WARNING (SyncWorker_9) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:54:53 WARNING (SyncWorker_1) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:55:04 WARNING (SyncWorker_2) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:55:04 WARNING (SyncWorker_18) [homeassistant.components.sensor.mitemp_bt] Polling error Could not read data from Mi Temp sensor 4C:65:A8:DD:DB:7B
+2019-02-16 16:55:14 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.temperatura_casa_battery is taking over 10 seconds
+2019-02-16 16:55:35 WARNING (MainThread) [homeassistant.components.sensor] Updating mitemp_bt sensor took longer than the scheduled update interval 0:00:30

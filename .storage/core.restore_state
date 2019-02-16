@@ -1,0 +1,130 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-02-16T15:48:24.008318+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Speedtest Ping",
+                    "icon": "mdi:speedometer",
+                    "unit_of_measurement": "ms"
+                },
+                "context": {
+                    "id": "f17fc750a14a4ae0ae4c35106351c97e",
+                    "user_id": null
+                },
+                "entity_id": "sensor.speedtest_ping",
+                "last_changed": "2019-02-16T15:33:22.619173+00:00",
+                "last_updated": "2019-02-16T15:33:22.619173+00:00",
+                "state": "84.332"
+            }
+        },
+        {
+            "last_seen": "2019-02-16T15:48:24.008318+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Speedtest Download",
+                    "icon": "mdi:speedometer",
+                    "unit_of_measurement": "Mbit/s"
+                },
+                "context": {
+                    "id": "55ae62d2bce7477ab4d3eacdc999b462",
+                    "user_id": null
+                },
+                "entity_id": "sensor.speedtest_download",
+                "last_changed": "2019-02-16T15:33:22.619951+00:00",
+                "last_updated": "2019-02-16T15:33:22.619951+00:00",
+                "state": "63.21"
+            }
+        },
+        {
+            "last_seen": "2019-02-16T15:48:24.008318+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Speedtest Upload",
+                    "icon": "mdi:speedometer",
+                    "unit_of_measurement": "Mbit/s"
+                },
+                "context": {
+                    "id": "77730e35fcc448208de72f75fe16bb52",
+                    "user_id": null
+                },
+                "entity_id": "sensor.speedtest_upload",
+                "last_changed": "2019-02-16T15:33:22.620704+00:00",
+                "last_updated": "2019-02-16T15:33:22.620704+00:00",
+                "state": "11.6"
+            }
+        },
+        {
+            "last_seen": "2019-02-16T15:48:24.008318+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Fast.com Download",
+                    "icon": "mdi:speedometer",
+                    "unit_of_measurement": "Mbit/s"
+                },
+                "context": {
+                    "id": "30f5f4aa3d914c0387dad12ab809d746",
+                    "user_id": null
+                },
+                "entity_id": "sensor.fast_com_download",
+                "last_changed": "2019-02-16T15:33:22.621415+00:00",
+                "last_updated": "2019-02-16T15:33:22.621415+00:00",
+                "state": "66.2"
+            }
+        },
+        {
+            "last_seen": "2019-02-16T15:48:24.008318+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Let's Encrypt Renewal",
+                    "id": "letsencrypt-renewal",
+                    "last_triggered": "2019-01-24T07:26:50.236925+00:00"
+                },
+                "context": {
+                    "id": "b39cc6ba2e674c068e7654cf8860b7bf",
+                    "user_id": null
+                },
+                "entity_id": "automation.let_s_encrypt_renewal",
+                "last_changed": "2019-02-16T15:33:22.694990+00:00",
+                "last_updated": "2019-02-16T15:33:22.694990+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-02-16T15:48:24.008318+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Censimento stati MQTT",
+                    "last_triggered": "2019-02-11T23:47:13.603464+00:00"
+                },
+                "context": {
+                    "id": "6c91fce0bb2a4c4096b47d1d5558af9f",
+                    "user_id": null
+                },
+                "entity_id": "automation.censimento_stati_mqtt",
+                "last_changed": "2019-02-16T15:33:22.696058+00:00",
+                "last_updated": "2019-02-16T15:33:22.696058+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-02-16T15:48:24.008318+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "SONOFF200_test1",
+                    "icon": "mdi:light"
+                },
+                "context": {
+                    "id": "05574a0502b14b99a8b6c9ffd7e6ae32",
+                    "user_id": null
+                },
+                "entity_id": "switch.sonoff200_test1",
+                "last_changed": "2019-02-16T15:33:22.725364+00:00",
+                "last_updated": "2019-02-16T15:33:22.725364+00:00",
+                "state": "unavailable"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}
